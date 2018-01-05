@@ -1,0 +1,213 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff9e3;
+
+}
+.header{
+	text-align: center;
+	width: auto;
+	margin: 0 auto;
+}
+.header h3{
+	font-family: Consolas;
+	font-size: 75px;
+	padding-top: 60px;
+}
+.header h2{
+	font-family: Consolas;
+	font-size: 55px;
+	padding-top: 60px;
+	clear: both;
+}
+.directory{
+	text-align: center;
+	top: 200px;
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.directory ul{
+	list-style-type: none;
+	padding-top: 80px;
+	padding-left: 35px;
+}
+.directory ul li{
+	float: left;
+}
+.li_bg_bar{
+	background-repeat: no-repeat;
+	background-position: 0px 125px;
+}
+
+.directory ul li a{
+	display: block;
+	text-decoration: none;
+	overflow: hidden;
+	width: 220px;
+	height: 230px;
+}
+
+.about{
+	text-align: center;
+}
+.about h3{
+	font-family: Consolas;
+	font-size: 55px;
+	padding-top: 60px;
+	clear: both;
+}
+.about p{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.members{
+	clear: both;
+}
+.members table{
+	margin: 0px auto;
+	border: dashed;
+	width: 60%;
+}
+.members table tr th{
+	margin: 0px auto;
+	font-size: 30px;
+}
+.members table tr td{
+	margin: 0px auto;
+	font-size: 20px;
+}
+.photos{
+	clear: both;
+	margin-left: 300px;
+}
+.banner{
+	position: relative;
+	height: 570px;
+	width: 870px;
+	overflow: hidden;
+	border: 10px solid #eee;
+	background-color: #eee;
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+}
+.imageList {
+	position: relative;
+	height: 570px;
+	width: 870px;
+	top: 0;
+	left: 5px;
+	overflow: hidden;
+}
+.imageList img{
+	display: block;
+	width: 870px;
+	height: 570px;
+	float: left;
+}
+.icobox{
+	position: absolute;
+	border: none;
+	width: 120px;
+	height: 12px;
+	left: 400px;
+	bottom: 10px;
+	text-align: center;
+	line-height: 40px;
+	overflow: hidden;
+}
+.icobox span{
+	background: url("http://www.itxueyuan.org/uploads/javascript/demo/lunbo/zuoyou_title/images/ico.png") 0px 0px no-repeat;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+	float: left;
+	margin-left: 3px;
+}
+.icobox span.active{
+	background: url("http://www.itxueyuan.org/uploads/javascript/demo/lunbo/zuoyou_title/images/ico.png") 0px -12px no-repeat;
+	cursor: default;
+}
+
+
+
+.join_us{
+	background-repeat:no-repeat;
+	margin: 0 auto;
+	width: 1175px;
+}
+.join_table_bg{
+	height: 600px;
+	margin-top: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: .25;
+}
+.join_table_wrap{
+	margin:-670px 0 0 300px;
+	opacity: .85;
+	position: relative;
+	width: 560px
+}
+.join_table{
+	width: 560px;
+	border: 0;
+}
+.join_td p{
+	height: 45px;
+	text-align: left;
+	line-height: 55px;
+	font-family: 微软雅黑;
+	font-size: 22px;
+}
+.join_table_tr{
+	height: 20px;
+}
+.join_td{
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: solid white 2px;
+}
+.join_input_content{
+	width: 180px;
+	margin-top: 10px;
+	font-family: 微软雅黑;
+	font-size: 22px;
+	border:none;
+	outline: medium;
+	background:rgba(0, 0, 0, 0);
+}
+.join_radio{
+	height: 20px;
+	width: 50px;
+	margin-top: 15px;
+}
+.join_radio_span{
+	color: #fff8e3;
+	font-family: 微软雅黑;
+	font-size: 22px;
+}
+.join_submit_button{
+	height: 50px;
+	width: 150px;
+	margin-top: 20px;
+	text-align: center;
+	background-color: orange;
+	color: white;
+	font-family: 微软雅黑;
+	font-size: 25px;
+	border-radius: 5px;
+	border: orange;
+}
+.join_submit_button:hover{
+	background-color: #fbc625;
+}
+.join_submit_button:active{
+	background-color: orange;
+}
